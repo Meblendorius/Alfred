@@ -15,7 +15,6 @@ while cont != clicks:
 input("começar")
 for i in range(len(xpos)):
     pyautogui.click(xpos[i],ypos[i])
-    print("clique realizado")
     print("aguardando")
     time.sleep(tempo)
 
